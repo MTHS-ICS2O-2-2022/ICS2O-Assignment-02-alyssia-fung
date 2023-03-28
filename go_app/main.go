@@ -7,21 +7,18 @@ package main
 
 import (
     "fmt"
-		"math"
+    "math"
 )
 
 func main() {
-	  var radius float64
-	var radius int
-	var area int
-	fmt.Println("This program finds the area of a circle")
-	fmt.Print("Enter the radius of the circle (cm): ")
-	fmt.Scanln(&radius)
-}
+    // Input
+    var radius float64
+    fmt.Print("Enter the radius of the circle (in cm): ")
+    fmt.Scan(&radius)
 
-	func main(){
-label:
-	fmt.Println(area, = (math.pi * radius**2))
-	fmt.Println("The area is:", area, " cm².")
-	fmt.Println("\nDone.")
-,}
+    // Process
+    area := math.Pi * math.Pow(radius, 2)
+
+    // Output
+    fmt.Printf("The area of the circle is: %.2f cm²\n", area)
+}
