@@ -24,4 +24,4 @@ label:
 	fmt.Println(area, = (math.pi * radius**2))
 	fmt.Println("The area is:", area, " cm².")
 	fmt.Println("\nDone.")
-}
+,}
